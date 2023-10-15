@@ -1,0 +1,59 @@
+.celular-image {
+    position: absolute;
+    left: 75%;
+    bottom: 68%;
+}
+
+.disk-image {
+    position: absolute;
+    bottom: 155%;
+    right: 30%;
+    width: 41%;
+}
+
+.pc-image {
+    position: absolute;
+    bottom: 166%;
+    width: 80%;
+    left: 58%;
+}
+
+@media (max-width: 1680px) {
+    .celular-image {
+        bottom: 73%;
+        width: 44%;
+        left: 72%;
+    }
+
+    .disk-image {
+        bottom: 129%;
+        right: 33%;
+        width: 41%;
+    }
+
+    .pc-image {
+        bottom: 157%;
+        left: 51%;
+        width: 83%;
+    }
+}
+
+@media (max-width: 420px) {
+    .celular-image {
+        bottom: 77%;
+        width: 71%;
+        left: 46%;
+    }
+
+    .disk-image {
+        bottom: 225%;
+        right: 50%;
+        width: 55%;
+    }
+
+    .pc-image {
+        bottom: 126%;
+        left: 19%;
+        width: 97%;
+    }
+}

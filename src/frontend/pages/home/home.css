@@ -1,3 +1,7 @@
+body{
+    background-color: #FFEBF1;
+}
+
 .App-logo {
     height: 40vmin;
     max-width: 100%;
@@ -16,12 +20,12 @@
 
 .body-container {
     position: relative;
-    right: -18%;
+    right: -23%;
     border-radius: 30px;
     background: rgba(234, 154, 187, 0.44);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    width: 1228px;
-    height: 651px;
+    width: 1030px;
+    height: 585px;
     flex-shrink: 0;
 }
 
@@ -44,7 +48,7 @@
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-.encuesta-button:hover{
+.encuesta-button:hover {
     background: #e26b8d;
 }
 
@@ -55,6 +59,35 @@
 
     to {
         transform: rotate(360deg);
+    }
+}
+
+@media (max-width: 1680px) {
+    .App-header {
+        padding: 2rem;
+    }
+
+    .large-text {
+        font-size: 3rem;
+    }
+
+    .body-container {
+        width: 50%;
+        position: relative;
+        right: -27%;
+    }
+
+    .body-text {
+        font-size: 3rem;
+    }
+
+    .encuesta-button {
+        display: flex;
+        right: 35%;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5rem;
+        top: 75%;
     }
 }
 
@@ -71,5 +104,18 @@
         width: 80%;
         position: relative;
         right: -9%;
+    }
+
+    .body-text {
+        font-size: 3rem;
+    }
+
+    .encuesta-button {
+        display: flex;
+        right: 22%;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5rem;
+        top: 75%;
     }
 }
