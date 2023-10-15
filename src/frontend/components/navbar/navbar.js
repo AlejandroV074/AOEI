@@ -39,7 +39,7 @@ function Navbar() {
                         />
                     </Link>
                 </li>
-                <li><Link to="/">Información</Link></li>
+                <li><Link to="/info">Información</Link></li>
                 <li><Link to="/" className='inicio-button'>Inicio</Link></li>
             </ul>
         </nav>
