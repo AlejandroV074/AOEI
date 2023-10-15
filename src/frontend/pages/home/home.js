@@ -2,7 +2,8 @@ import React from 'react';
 import './home.css';
 import Navbar from '../../../frontend/components/navbar/navbar';
 import Tittle from '../../../frontend/components/tittle/tittle';
-import { Link } from 'react-router-dom';
+import Comentarios from '../../../frontend/components/comentarios/comentarios';
+import Photos from '../../../frontend/components/images-f/im';
 
 function Home() {
 
@@ -15,24 +16,17 @@ function Home() {
             <main>
                 <Tittle />
                 <div className='body-container'>
+                <Photos />
                     <div className='body-text'>
-                    <p>
-                    ¡Te invitamos a participar en nuestra encuesta!
-                    </p>
-                    <a><Link to="/" className='encuesta-button'>Ir a la encuesta</Link></a>
+                        <p>
+                            ¡Te invitamos a participar en nuestra encuesta!
+                        </p>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSduB3-YKAkviC5U6i0QXYpiiWXXjw8CFyR2HD-eSbGETaOc2w/viewform?usp=sf_link" className='encuesta-button' style={{ color: '#FFF' }} target="_blank">
+                            Ir a la encuesta
+                        </a>
                     </div>
                 </div>
-                <p>asd</p>
-                <p>asd</p>
-                <p>asd</p>
-                <p>asd</p>
-                <p>asd</p>
-                <p>asd</p>
-
-                <p>asd</p>
-
-
-                <p>asd</p>
+                <Comentarios />
             </main>
         </div>
     );
