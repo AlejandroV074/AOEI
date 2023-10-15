@@ -56,6 +56,7 @@ a {
 }
 
 @media (max-width: 1080px) {
+
     nav {
         background-color: #333;
     }
@@ -92,11 +93,6 @@ a {
         font-size: 24px;
         margin-left: -8%;
         margin-bottom: -10%;
-    }
-
-    .scan-qr {
-        width: 100%;
-        text-align: center;
     }
 
     .menu-btn {
@@ -147,4 +143,5 @@ a {
         color: black;
         align-items: center;
     }
+
 }
