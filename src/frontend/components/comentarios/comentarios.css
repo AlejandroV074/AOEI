@@ -9,13 +9,12 @@
 }
 
 .comentarios-list {
-    display: block;
     list-style: none;
     padding: 0;
     margin-bottom: 8%;
     background: white;
-    height: 455px;
-    overflow-y: auto;
+    height: 455px; 
+    overflow-y: visible; 
     border-radius: 20px;
     width: 96%;
     right: -2%;
